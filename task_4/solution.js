@@ -14,11 +14,11 @@ function parseProducts(json) {
 // Напишите функцию renderProductsCards(json)
     function renderProductsCards(json){
         clearProducts();
-        renderProductsCards (Products);
         let products = parseProducts(json);
-        for (let i = 0; i > length; i --){
-            let length = products.length;
-            addProduct(products[i]);
+        let length = products.length;
+        for (let i = 0; i < length; i += 1) {
+        let length = products.length;
+        addProduct(products[i]);
 
         }
     }
